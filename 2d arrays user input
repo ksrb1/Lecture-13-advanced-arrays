@@ -1,0 +1,15 @@
+  string snacks[3][3];
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			cout << "Enter a snack for " << (i+1) << ", " << (j+1) << ": ";
+			cin >> (snacks[i][j]) ;
+		}
+		cout << endl;
+	}
+
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			cout << snacks[i][j] << " ";
+		}
+		cout << endl;
+	}
