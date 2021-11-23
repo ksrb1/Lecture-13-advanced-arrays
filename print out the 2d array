@@ -1,0 +1,14 @@
+  string snacks[3][4] = {
+		{"Galaxy silk", "Mars Bar", "Snickers","Bounty"},
+		{"Flavoured Youghurt", "Oman chips","Oreo","Lays"}, 
+		{"Apple", "Banana","Orange","Pear"} 
+
+	};
+
+
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 4; j++) {
+			cout << snacks[i][j] << " ";
+		}
+		cout << endl;
+	}
