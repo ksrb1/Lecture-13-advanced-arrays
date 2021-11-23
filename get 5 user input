@@ -1,0 +1,17 @@
+int input[5];
+	
+	for (int i{ 0 }; i < 5; i++) {
+		cout << "Enter the number " << (i + 1) << ": ";
+		cin >> input[i];
+		while (cin.fail()) {
+			cout << "Invalid input.Please enter a correct input:";
+			cin.clear();
+			cin.ignore(1000, '\n');
+			cin >> input[i];
+
+		}
+		
+	}
+	for (auto inputs : input) {
+		cout << inputs;
+	}
